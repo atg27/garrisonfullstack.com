@@ -56,6 +56,7 @@ wss.broadcast = function broadcast(data) {
 }
 
 /** end websockets */
+
 /** begin database */
 const sqlite = require('sqlite3');
 const db = new sqlite.Database(':memory:');
